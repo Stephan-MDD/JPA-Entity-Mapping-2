@@ -41,16 +41,20 @@ public class CustomerFacade {
         } finally {
             em.close();
         }
+        return null;
     }
 
     public CustomerEntity addCustomer(CustomerEntity cust) {
+        return null;
     }
 
     ;
     public CustomerEntity deleteCustomer(int id) {
+        return null;
     }
 
     public CustomerEntity editCustomer(CustomerEntity cust) {
+        return null;
     }
 
 }
